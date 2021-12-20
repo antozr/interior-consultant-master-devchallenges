@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Devchallenges This Interior exo 3}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="interior.devchallenges.io.antoni-dumont.be">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/antozr/interior-consultant-master-devchallenges">
       Solution
     </a>
     <span> | </span>
@@ -36,22 +36,24 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](http://interior.devchallenges.io.antoni-dumont.be/assets/img/Capture.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+
+## The tech used
+For this project I have used the html, CSS and Js Vanilla, the css animation keyframes and the media querries. For create the static items in page, i have used the css grid in the post-card, and used the flex-box for the nav and for place the contain of hoeres section.
+
+## The animation
+For the nav , I have add a animation to the text move/ rotate to the top with a small delay with all element in nav nav. And for the hamburger menu , I have add a small translate to the left and a apparition of defferently element to the nav with a smalll delay.
+
+## The Burger menu
+For create this, I have used the querrySelecor the ul of my nav and add a class if click the menu of burger menu. The addEventListener play the fonction for open or close a menu. And a add a special class for element of nav for a good resolution in mobile and ipad.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+I have build this project with HTML, CSS3 And JS vanilla . 
 
 ## Features
 
@@ -69,6 +71,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](http://antoni-dumont.be/)
+- GitHub [@antozr](https://github.com/antozr/)
