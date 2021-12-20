@@ -68,11 +68,7 @@ body{
     transform-origin: 50% 50% 21px;
     transform: rotateX(0deg);
 }
-.head__el--actif{
-    padding: 0 0 8px 0;
-    border-bottom: 2px solid #fff;
-    
-}
+
 .head__el--gsmMenu{
     opacity: 0;
 }
@@ -88,12 +84,17 @@ body{
 .head__elTitle{
     font-family: 'Montserrat', sans-serif;
     font-size:  18px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 14px;
     color: #fff;
     
 }
-
+.head__el--actif{
+    padding: 0 0 8px 0;
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    
+}
 
 
 
@@ -283,8 +284,151 @@ body{
 
 
 
+@media (min-width:1100px){
+
+    .head{
+        width: calc(100vw - 152px);
+        height: 31px;
+        margin: 46px 76px 0 76px ;
+    }
+    .head__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40vw;
+
+    }
+    .head__menuBtn{
+        display: none;
+    }
+    .head__el{
+        margin: 8px 0;
+        opacity: 1;
+        animation: apparitionTitle 2.0s ;
+        animation-delay: 0.3s;
+        transform-origin: 50% 50% 21px;
+        transform: rotateX(0deg);
+    }
+
+    .main{
+        margin: 135px 76px;
+        width: calc(100vw - 152px);
+        display: flex;
+        flex-direction: row;
+    
+    
+    }
+
+    .main__title{
+        font-size:  48px;
+        margin: 150px 0 0 0 ;
+    }
+    .main__boxImg{
+
+        max-width: 900px;
+        width: 45vw;
+        right: 0;
+        float: right;
+        margin: 0px 0 0 7vw;
+    }
+    .main__img{
+        min-width: 800px;
+        max-width: 900px;
+        width: 60%;
+        height: 580px;
+        
+    }
+    .main__txt{
+        font-size:  24px;
+        margin: 40px 0 0 0 ;
+        line-height: 140%;
+        width: 25ch;
+    }
+    .main__txt--btn{
+        font-size:  18px;
+        font-weight: 700;
+        width: 82px;
+        margin: 0;
+    }
+    .main__btn{
+        display: flex;
+        flex-direction: row;
+        width: 145px;
+        height: 18px;
+        align-items: center;
+        align-content: center;
+        margin: 25px 0 0 0 ;
+        justify-content: space-between;
+    }
+    .main__btn:hover{
+        
+        transition: all 0.6s ease-in;
+        width: 185px;
+        cursor: pointer;
+    }
+    .main__btn:hover > .main__txt--btn{
+        transition: all 0.6s ease-in;
+        color: #d8cac1;
+        font-weight: 900;
+    }
+    .main__btn:hover > .main__imgBtn{
+        transition: all 0.3s ease-in;
+        opacity: 0.6;
+    }
+    .main__imgBtn{
+        margin: 6px 0 0 0 ;
+        color: red;
+    }
+    .main__post{
+        width: 410px;
+        height: 190px;
+        margin: -100px 0 0 15vw;
+    }
+    .post__header{
+        height: 50px;
+        grid-template-columns: 50px 140px;
+        column-gap: 14px;
+        margin: 18px 0 0 31px;
+    }
+    .post__img{
+        width: 50px;
+        height: 50px;
+    }
+    .post__name{
+        font-family: 'Montserrat', sans-serif;
+        margin: 5px 0 0 0;
+        font-size:  14px;
+        
+    }
+    .post__name--small{
+        font-family: 'Montserrat', sans-serif;
+        font-size:  12px;
+        color:#828282;
+        grid-area: t2; 
+    }
+    .post__txt{
+        font-family: 'Lora', serif;
+        font-size:  24px;
+        font-weight: 700;
+        line-height: 140%;
+        color: #fff;
+        margin: 28px 0 0 28px;
+        width: 18ch;
+    }
+    
+}
 
 
+@media (min-width:1600px){
+    .main__boxImg{
+
+        max-width: 900px;
+        width: 45vw;
+        right: 0;
+        float: right;
+        margin: 0px 0 0 20vw;
+    }
+}
 @keyframes openBtnMenuBox1 {
     from{
         transform: rotateZ(0deg);
